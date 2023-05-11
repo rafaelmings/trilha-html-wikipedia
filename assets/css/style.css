@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+a {
+    color:blue;
+    text-decoration: none;
+}
+header{
+    display: flex;
+}
+nav {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+    margin: auto;
+}
+.logo {
+    padding: 10px 0px 0px 10px;
+}
+.search{
+    margin: auto;
+    padding-left: 100px;
+}
+.box{
+    width: 250px;
+    height:20px;
+}
+button {
+    height: 25px;
+}
+.header {
+    justify-content: space-between;
+}
+.subitem {
+    margin: 0px 20px;
+}
+h2 {
+    margin-top: 40px;
+}
+.elenco {
+    list-style: circle;
+}
+table, th, td{
+    border: solid 2px gray;
+}
+td {
+    padding: 5px;
+}
+thead {
+    background-color: #006666;
+    color: white;
+}
+.indicado {
+    background-color: rgb(237, 2, 2, 0.35);
+}
+.venceu {
+    background-color: rgb(0, 224, 18, 0.35);
+}
+table{
+    border-collapse: collapse;
+}
+.sign {
+    margin: auto 0 auto auto;
+    padding-right: 20px;
+}
